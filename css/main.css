@@ -1,0 +1,105 @@
+.header {
+    background-color: #000000;
+    margin-top: 0;
+ 
+    padding-bottom: 0.2px;
+}
+body {
+  margin:auto;
+}
+a {
+  text-decoration: none;
+  font-family: 'Lora', serif;
+  transition: .5s linear;
+}
+
+nav {
+  width: 660px;
+  margin: 0 auto 30px;
+  display: block;
+  padding-bottom: 0px;
+}
+.topmenu li {
+  display: inline-block;
+}
+.topmenu a {
+  padding: 1em;
+  background: rgba(172, 124, 111, 0.3);
+  border-right: 1px solid #b19891;
+  color: #ecc100ea;
+}
+.topmenu a:hover {
+  border: 5px inset #9F908F;
+  background: #b19891;
+}
+#logo{
+  border: none;
+  background: #a3050500;
+  
+}
+.topmenu ul{
+  display:flex;
+  justify-content:center;
+  flex-direction: row;
+  padding: 1em 0;
+  align-items: center;
+  padding-bottom: 0;
+}
+.headzag div{
+  margin: 0px;
+  display: block;
+  align-items: center;
+  border: none;
+}
+.headzag a {
+  display: block;
+}
+.headzag {
+  color: rgb(255, 230, 0);
+  font-size: 40px;
+  
+}
+
+.namearticle{
+  border-bottom: 5px double #000;
+}
+.contentpaneopen {
+  margin-left: 24%;
+  margin-right: 24%;
+  border-bottom: 5px dashed #000;
+}
+
+a.readon {background:rgba(0,0,0,0) linear-gradient(#fff,#bdbbbb) repeat scroll 0 0;
+  border:1px solid rgb(184, 181, 181);
+  border-radius:2px;
+  color:rgb(31, 30, 30);
+  float:right;
+  font-weight:normal;
+  margin: -32px 0 15px;
+  padding:5px 7px 5px 11px;
+  text-decoration:none;
+}
+a.readon:hover {
+  background:rgba(0,0,0,0) linear-gradient(#e6e6e6,#fafafa) repeat scroll 0 0;
+  color:#333
+}
+a.urlah {
+  display: block;
+  text-decoration:none;
+  font-weight:normal;
+  color: rgb(148, 4, 83);
+  border: 2px solid rgb(233, 40, 40);
+  font-size: 25px;
+}
+a.urlah:hover {
+  color: rgb(3, 145, 102);
+  font-size: 29px;
+  padding: 3px;
+}
+.contentpagetitle {
+  color: rgb(5, 82, 59)
+}
+.article-content {
+  font-size: 23px;
+  margin-bottom: 35px;
+}
